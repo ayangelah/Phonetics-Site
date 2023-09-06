@@ -1,0 +1,31 @@
+
+@import "./css/variables";
+
+
+
+/*$theme-colors: (
+  "light-blue":#8ecae6,
+  "sky-blue":  #219ebc,
+  "dark-blue": #023047,
+  "yellow":    #ffb703,
+  "orange":    #fb8500,
+);*/
+
+/*
+//new stuff
+$theme-light-blue:#8ecae6;
+$theme-sky-blue:  #219ebc;
+$theme-dark-blue: #023047;
+$theme-yellow:    #ffb703;
+$theme-orange:    #fb8500; */
+
+/* change the colors */
+$secondary:#8ecae6;
+$primary:  #219ebc;
+$dark:     #023047;
+$light:    #ffb703;
+$info:     #fb8500;
+
+$body-bg: #f3f3f0;
+
+@import "bootstrap";
