@@ -1,16 +1,39 @@
-// import our variable overrides.
-// go here to set custom values for Bootstrap vars
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
 @import "./abstracts/variables";
 
-// import Bootstrap functions, vars and mixins
+// Import Bootstrap functions, vars and mixins
+/*
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
+*/
 
-// import our map amends
-// go here to run any Sass map amends on Bootstrap Sass maps
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
 @import "./abstracts/map-amends";
 
-// import our utility overrides
-// go here to amend or set custom utilities using the Bootstrap API
-@import "./utilities/bootstrap-api-utilities"
+// Import our utility overrides
+// Go here to amend or set custom utilities using the Bootstrap API
+@import './utilities/bootstrap-api-utilities';
+
+// Bootstrap main import
+/*
+@import "~bootstrap/scss/bootstrap";
+*/
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/*
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/utilities';
+*/
