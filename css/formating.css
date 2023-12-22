@@ -111,6 +111,17 @@ font-family: Arial, Helvetica, sans-serif;
   list-style-type: circle;
 }
 
-.ladefogedimage {
-  
+.figure {
+  width: 30vw;
+  height: auto;
+  align-self: center;
+  float: center;
+}
+
+* p {
+  font-size: 2vh;
+}
+
+.navbar {
+  font-size: 2vh;
 }
